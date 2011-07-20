@@ -28,13 +28,10 @@ use jc\mvc\view\DataExchanger ;
  * @author gaojun
  *
  */
-class Delete extends Controller
+class Remove extends Controller
 {
 	protected function init()
 	{
-		
-		
-		
 		$this->model = Model::fromFragment('blog',array('tag'));
 	}
 	
